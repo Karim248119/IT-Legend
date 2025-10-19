@@ -30,7 +30,7 @@ export function VolumeControl({
         <TooltipContent
           hideArrow
           side="top"
-          className="bg-neutral-900/50 border border-white/10 p-2 mb-5 mr-1 rounded-lg flex items-center justify-center"
+          className="bg-neutral-900/50 border border-white/10 p-2 mb-5 mr-1 rounded-lg flex-center"
         >
           <Slider
             orientation="vertical"

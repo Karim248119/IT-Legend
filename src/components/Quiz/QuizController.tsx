@@ -13,7 +13,7 @@ export default function QuizController({
   canScrollNext: boolean;
 }) {
   return (
-    <div className="w-full absolute bottom-10 flex items-center justify-between px-10">
+    <div className="w-full  flex items-center justify-between px-10">
       <button
         onClick={scrollPrev}
         disabled={!canScrollPrev}

@@ -74,7 +74,7 @@ export default function PdfViewer({ file }: { file: string }) {
 
         <div className="flex-1 flex justify-end">
           <DialogClose asChild>
-            <button className="md:w-8 w-6 aspect-square flex items-center justify-center rounded-lg hover:bg-teal-500 hover:text-white border border-teal-500 duration-300">
+            <button className="md:w-8 w-6 aspect-square flex-center rounded-lg hover:bg-teal-500 hover:text-white border border-teal-500 duration-300">
               <X className="w-4 md:w-6" />
             </button>
           </DialogClose>

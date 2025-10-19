@@ -1,12 +1,13 @@
 import CourseMaterialRow from "@/components/CourseMaterialRow";
 import Header from "@/components/Header";
+import Section from "@/components/Section";
 import CourseData from "@/data";
 import { Clock3, Globe, LibraryBig, User } from "lucide-react";
 import React from "react";
 
 export default function CourseMaterials() {
   return (
-    <section className="my-10">
+    <Section>
       <Header>Course Material</Header>
       <div className="bg-white shadow-lg p-5 rounded-sm">
         <CourseMaterialRow
@@ -31,6 +32,6 @@ export default function CourseMaterials() {
           className="border-b-0"
         />
       </div>
-    </section>
+    </Section>
   );
 }

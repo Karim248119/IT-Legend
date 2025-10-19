@@ -14,7 +14,7 @@ export default function Header({
   return (
     <h2
       className={cn(
-        "font-semibold text-gray-900 tracking-tight",
+        "font-semibold text-gray-900 tracking-tight ",
         size === "lg"
           ? "text-3xl mb-6 font-bold"
           : size === "md"

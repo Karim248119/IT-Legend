@@ -29,7 +29,7 @@ export default function Progress({
         }}
         className="w-fit text-xs text-neutral-400 flex flex-col items-center transition-opacity duration-700"
       >
-        <div className="w-10 h-10 rounded-full border-2 border-neutral-400 flex items-center justify-center text-xs">
+        <div className="w-10 h-10 rounded-full border-2 border-neutral-400 flex-center text-xs">
           {label}
         </div>
         <BiSolidDownArrow />

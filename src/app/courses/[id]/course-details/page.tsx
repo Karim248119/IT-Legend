@@ -10,8 +10,10 @@ import CourseCurriculum from "@/components/Courses/sections/Curriculum";
 const CourseDetails = () => {
   return (
     <div>
-      <Header size="lg">{CourseData.title}</Header>
-      <div className="grid md:grid-cols-[3fr_1fr] gap-10">
+      <Header className="md:px-10 px-4" size="lg">
+        {CourseData.title}
+      </Header>
+      <div className="grid md:grid-cols-[3fr_1fr] ">
         <div>
           <CourseVideo />
           <CourseMaterials />

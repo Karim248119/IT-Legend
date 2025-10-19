@@ -32,7 +32,7 @@ export default function Breadcrumbs() {
   ];
 
   return (
-    <Breadcrumb className="mb-4">
+    <Breadcrumb className="md:px-10 px-4 py-5 mb-5">
       <BreadcrumbList>
         {crumbs.map((crumb, index) => (
           <BreadcrumbItem key={crumb.href}>

@@ -39,9 +39,11 @@ export default function QuestionDialog() {
             onChange={(e) => setQuestion(e.target.value)}
           />
 
-          <DialogFooter>
+          <DialogFooter className="flex-row justify-center">
             <DialogClose asChild>
-              <Button type="button">Close</Button>
+              <Button className="bg-red-500 hover:bg-red-700" type="button">
+                Close
+              </Button>
             </DialogClose>
             <Button type="submit">Submit</Button>
           </DialogFooter>

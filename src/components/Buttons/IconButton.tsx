@@ -22,7 +22,7 @@ const IconButton = ({
         <button
           {...props}
           className={cn(
-            "w-10 aspect-square rounded-full flex items-center justify-center border-2 text-xl text-neutral-400 hover:bg-teal-500 hover:text-white transition",
+            "w-10 aspect-square rounded-full flex-center border-2 text-xl text-neutral-400 hover:bg-teal-500 hover:text-white transition",
             className
           )}
         >

@@ -39,7 +39,7 @@ const QuizDialog = ({
       <QuizProvider duration={duration}>
         <DialogOverlay className="w-screen h-screen">
           <DialogClose asChild>
-            <button className="absolute z-20 top-5 right-10 p-1 text-sm rounded-lg text-white  border-2 cursor-pointer">
+            <button className="absolute z-20 top-5 md:right-10 right-5 md:w-8 w-6 aspect-square flex-center rounded-lg text-xs text-white  border-2 cursor-pointer">
               <X className="w-4 md:w-6" />
             </button>
           </DialogClose>

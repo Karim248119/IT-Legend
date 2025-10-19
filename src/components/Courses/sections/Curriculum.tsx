@@ -1,12 +1,13 @@
 import CurriculumCard from "@/components/Cards/CurriculumCard";
 import Header from "@/components/Header";
 import Progress from "@/components/Progress";
+import Section from "@/components/Section";
 import CourseData from "@/data";
 import React from "react";
 
 export default function CourseCurriculum() {
   return (
-    <section id="curriculum" className="w-full space-y-10">
+    <Section id="curriculum" className="space-y-10 py-0">
       <Header>Topics For this course</Header>
       <Progress value={63} />
       <div className="md:space-y-10 space-y-4">
@@ -14,6 +15,6 @@ export default function CourseCurriculum() {
           <CurriculumCard key={index} item={item} />
         ))}
       </div>
-    </section>
+    </Section>
   );
 }

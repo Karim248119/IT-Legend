@@ -39,7 +39,7 @@ export default function QuizCard({
                 }
               )}
             >
-              <div className="w-6 h-6 flex items-center justify-center border border-current/50 rounded-full">
+              <div className="w-6 h-6 flex-center border border-current/50 rounded-full">
                 {option.label}
               </div>
               <p>{option.text}</p>

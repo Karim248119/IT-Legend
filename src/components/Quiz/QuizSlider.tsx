@@ -42,7 +42,7 @@ export default function QuizSlider() {
           <button
             key={index}
             onClick={() => scrollTo(index)}
-            className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-semibold duration-300 
+            className={`w-8 h-8 rounded-full flex-center text-sm font-semibold duration-300 
               ${
                 selectedIndex === index
                   ? "bg-white text-teal-500"

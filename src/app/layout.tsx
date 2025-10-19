@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         suppressHydrationWarning
-        className={`${geistSans.variable} ${geistMono.variable} bg-neutral-50 antialiased md:px-10 px-4 py-5`}
+        className={`${geistSans.variable} ${geistMono.variable} bg-neutral-50 antialiased`}
       >
         <Breadcrumbs />
         {children}
