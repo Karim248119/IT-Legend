@@ -1,9 +1,12 @@
-import PdfViewer from "@/components/PdfViewer";
+import Button from "@/components/Buttons/Button";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main className="flex justify-center items-center">
-      <PdfViewer file="/1.pdf" />
+      <Link href="/courses">
+        <Button>Courses</Button>
+      </Link>
     </main>
   );
 }

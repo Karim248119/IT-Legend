@@ -63,7 +63,7 @@ export default function PdfViewer({ file }: { file: string }) {
           />
           <ZoomIn className="text-neutral-600 w-3 md:w-6" />
           <span className="md:text-sm text-xs text-neutral-700 font-medium">
-            {scale * 100}%
+            {Math.round(scale * 100)}%
           </span>
         </div>
         <div className="flex-1 flex justify-center">
